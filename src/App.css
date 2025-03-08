@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.message-container {
+  white-space: nowrap; /* Prevent wrapping within the container */
+  max-width: 100%;
+  font-size: 2em; /* Increase the font size */
+  text-align: center; /* Center each line of the message */
+}
+
+.message-char {
+  display: inline-block;
+  margin: 0 2px; /* Adjust the margin to decrease spacing */
+  word-break: keep-all; /* Prevent breaking within words */
+}
+
+.space {
+  display: inline-block;
+  width: 1em; /* Adjust the width for spaces */
+}
+
+h1 {
+  font-size: 3em; /* Increase the font size of the heading */
+  margin-bottom: 20px; /* Add some margin below the heading */
+  text-decoration: underline; /* Underline the header */
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.frequency-table {
+  flex: 1;
+  text-align: left;
+  font-size: 2em; /* Increase the font size */
+}
+
+.alphabet-table {
+  flex: 1;
+  text-align: right;
+  font-size: 1.8em; /* Increase the font size */
+  border: 1px solid white;
+}
+
+.monospace-font {
+  font-family: 'Lucida Console', 'Courier New', Courier, monospace;
+}
